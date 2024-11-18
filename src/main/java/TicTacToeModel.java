@@ -10,7 +10,7 @@ public class TicTacToeModel {
     public TicTacToeModel() {
         board = new char[3][3];
         resetBoard();
-        currentPlayer = 'X'; // 'X' är spelarens symbol
+        currentPlayer = 'X';
         random = new Random();
     }
 
